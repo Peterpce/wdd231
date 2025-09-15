@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 – Web Frontend Development I – Peter Ekanem</title>
+    <meta name="description" content="WDD 231 – Web Frontend Development I. Peter Ekanem. [Page keywords here]">
+    <meta name="author" content="Peter Ekanem">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- JS -->
+  <script src="script/navigation.js" defer></script>
+  <script src="script/date.js" defer></script>
+  <script src="script/course.js" defer></script>
+</head>
+<body>
+  <header>
+  <div class="header-container">
+    <img src= "images/pceLogos.jpg" alt="Site Logo" class="logo-image" width="64" height="64">
+    <span class="site-name">Peter Ekanem</span>
+
+    <!-- accessible hamburger button: no visible text, aria-expanded toggled by JS -->
+    <button id="menu" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+  </div>
+
+  <nav id="nav-menu" class="navigation" aria-label="Primary navigation">
+    <ul>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li><a href="chamber/index.html">Chamber</a></li>
+      <li><a href="final/index.html">Final</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <h1>Home</h1>
+
+    <!-- About Me section with student photo -->
+<section class="about-container">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is <strong>Peter Ekanem</strong>. I am a passionate software developer in training, currently studying at <strong>BYU–Idaho</strong>. 
+      I enjoy building web applications using <em>HTML, CSS, and JavaScript</em>, and I’m expanding my skills in software development and problem solving. 
+    </p>
+    <p>
+      I’m from <strong>Uyo, Akwa Ibom, Nigeria</strong>. Beyond coding, I enjoy exploring new technologies, learning how things work, and sharing ideas that inspire growth. 
+      My long-term goal is to create impactful solutions that make life easier for individuals and communities.
+    </p>
+  </div>
+
+  <div class="about-photo">
+    <h2>Student Photo</h2>
+    <img src="images/Pita.jpg" alt="Photo of Peter Ekanem" class="student-photo" width="200" height="200">
+    <h3>Peter Ekanem</h3>
+  </div>
+</section>
+
+
+    <section>
+      <h2>Course Work</h2>
+      <div class="course-filters">
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
+      </div>
+      <div id="course-cards" class="courses"></div>
+      <p id="total-credits"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="socail">
+        
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/whatsapp.svg" alt="whatsapp" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+    </div>
+    <p>
+      &copy; <span id="currentyear"></span> | Peter Ekanem | Nigeria
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

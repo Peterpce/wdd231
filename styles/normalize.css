@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default body styles */
+html {
+  font-size: 100%; /* 16px default */
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove underline on links but keep color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* Reset buttons */
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Reset headings font weight */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
