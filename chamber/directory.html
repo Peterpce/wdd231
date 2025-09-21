@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of Commerce Directory</title>
+  <meta name="description" content="Business directory for the Chamber of Commerce. Discover local members and their services.">
+  <meta name="author" content="Peter Ekanem">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Open Graph / Facebook Meta -->
+  <meta property="og:title" content="Chamber of Commerce Directory">
+  <meta property="og:description" content="Explore our Chamber of Commerce business directory.">
+  <meta property="og:image" content="https://yourdomain.com/chamber/images/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav id="nav-menu" class="navigation" aria-label="Primary navigation">
+      <div class="logo-container">
+        <img src="images/pceLogos.jpg" alt="Chamber of Commerce Logo" class="logo-image" width="64" height="64">
+        <span class="site-name">Ekanem Chamber of Commerce</span>
+
+        <!-- accessible hamburger button -->
+        <button id="menu" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Mission Section -->
+    <section class="mission">
+      <h2>Our Mission</h2>
+      <p>
+        The Timbuktu Chamber of Commerce is dedicated to strengthening our community
+        by promoting local economic growth, supporting small businesses, and fostering
+        a sense of unity among entrepreneurs, residents, and corporations.
+      </p>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="directory-controls">
+      <img src= "images/Chamber.jpeg" alt="Ekanem city view" />
+      <div class="hero-text">
+        <h2>Supporting Local Businesses</h2>
+        <p>Promoting growth, networking, and prosperity in Timbuktu.</p>
+        <a href="join.html" class="cta">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Quick Links / Features -->
+    <section class="about-container">
+      <div class="about-text">
+        <article>
+          <h3>Business Directory</h3>
+          <p>Explore local businesses in Timbuktu and connect with trusted professionals.</p>
+          <a href="directory.html">View Directory →</a>
+        </article>
+      </div>
+      <div class="about-text">
+        <article>
+          <h3>Events</h3>
+          <p>Check out upcoming networking events, workshops, and community activities.</p>
+          <a href="events.html">See Events →</a>
+        </article>
+      </div>
+      <div class="about-text">
+        <article>
+          <h3>Join Us</h3>
+          <p>Become a member today to access valuable resources and grow your business.</p>
+          <a href="join.html">Apply Now →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Directory Section -->
+    <section class="directory">
+      <h2>Member Directory</h2>
+      <div class="view-toggle">
+        <button id="gridBtn">Grid View</button>
+        <button id="listBtn">List View</button>
+      </div>
+      <div id="members" class="grid-view">
+        <!-- Business members will be injected here by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <h2>Ekanem Chamber of Commerce</h2>
+      <h3>Ekanem Peter</h3>
+      <p>Contact: peterpce2022@gmail.com | +2349160167366</p>
+    </div>
+    <div class="socail">
+        
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/whatsapp.svg" alt="whatsapp" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+    </div>
+    <div class="get"></div>
+      <p>&copy; <span id="currentyear"></span> Chamber of Commerce</p>
+      <!--p>WDD 231 Project | Peter Ekanem</p-->
+      <p>Last Modified: </p>
+      <span id="lastModified"></span>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/directory.js" defer></script>
+  <script src="scripts/footer.js" defer></script>
+</body>
+</html>

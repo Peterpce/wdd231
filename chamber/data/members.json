@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Sahara Tech Solutions",
+    "address": "123 Desert Road, Timbuktu",
+    "phone": "+223-555-1234",
+    "website": "https://saharatech.com",
+    "image": "hotelA.jpeg",
+    "membership": "Gold",
+    "info": "Providing IT services and digital solutions across Mali."
+  },
+  {
+    "name": "Golden Sands Hotel",
+    "address": "45 Oasis Street, Timbuktu",
+    "phone": "+223-555-5678",
+    "website": "https://goldensands.com",
+    "image": "hotel.jpeg",
+    "membership": "Silver",
+    "info": "Luxury hotel and conference center."
+    
+  },
+  {
+    "name": "Nomad Traders",
+    "address": "78 Caravan Road, Timbuktu",
+    "phone": "+223-555-9101",
+    "website": "https://nomadtraders.com",
+    "image": "Lord.jpeg",
+    "membership": "Member",
+    "info": "Specializing in local crafts, textiles, and souvenirs."
+  },
+  {
+    "name": "Oasis Cafe",
+    "address": "22 Palm Grove, Timbuktu",
+    "phone": "+223-555-1122",
+    "website": "https://oasiscafe.com",
+    "image": "National.jpeg",
+    "membership": "Silver",
+    "info": "A community hub serving coffee, meals, and live music."
+  },
+  {
+    "name": "Timbuktu Transport Co.",
+    "address": "67 Market Street, Timbuktu",
+    "phone": "+223-555-3344",
+    "website": "https://timbuktutransport.com",
+    "image": "Nomad.jped",
+    "membership": "Gold",
+    "info": "Reliable transportation services for goods and people."
+  },
+  {
+    "name": "Desert Financial Services",
+    "address": "10 Commerce Avenue, Timbuktu",
+    "phone": "+223-555-5566",
+    "website": "https://desertfinance.com",
+    "image": "oron.jpeg",
+    "membership": "Member",
+    "info": "Supporting local businesses with loans and investments."
+  },
+  {
+    "name": "University of Timbuktu",
+    "address": "101 Knowledge Way, Timbuktu",
+    "phone": "+223-555-7788",
+    "website": "https://timbuktuuniversity.edu",
+    "image": "university.png",
+    "membership": "Gold",
+    "info": "Educational excellence and research innovation."
+  }
+]
