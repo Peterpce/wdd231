@@ -1,0 +1,70 @@
+
+/* Tablet & Up */
+@media (min-width: 700px) {
+  .about-container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+
+  S.navigation ul {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    gap: 1rem;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    width: auto;
+  }
+
+  .hamburger { display: none; }
+
+  /* members grid: 2 columns for tablet */
+  #members.grid-view {
+    grid-template-columns: repeat(2, 1fr);
+    color: #222;
+  }
+
+  #members.grid-view .card,
+  #members.grid-view .member-card {
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+
+  header {
+    grid-template-columns: auto auto; /* logo/name | nav */
+    align-items: center;
+  }
+
+  /* Hide hamburger on larger screens */
+  .hamburger {
+    display: none;
+  }
+
+  /* Always show nav on large screens */
+  .navigation {
+    display: block;
+    border-bottom: solid 1px #222;
+    background: #222;
+    color: #fff6e5;
+    
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .navigation li {
+    border: none;
+  }
+
+  .navigation a {
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+}
+  
+
+  

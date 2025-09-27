@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Peter Ekanem Chamber of Commerce - Supporting local businesses, events, and community growth." />
+  <title>Peter Ekanem | Chamber Home</title>
+  <meta name="author" content="Peter Ekanem">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+
+  <!-- JS -->
+  <script defer src="scripts/main.js"></script>
+  <script defer src="scripts/weather.js"></script>
+  <script defer src="scripts/spotlights.js"></script>
+  <script defer src="scripts/navigation.js"></script>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-container">
+      <img src="images/pceLogos.jpg" alt="Site Logo" class="logo-image" width="64" height="64">
+      <span class="site-name">Peter Ekanem</span>
+
+      <!-- Accessible hamburger button -->
+      <button id="menuBtn" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+    </div>
+
+    <nav id="nav-menu" class="navigation" aria-label="Primary navigation">
+      <ul>
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="final/index.html">Final</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src= "images/Chamber.jpeg" alt="View of Timbuktu" />
+      <div class="hero-text">
+        <h1>Welcome to Peter Ekanem Chamber of Commerce</h1>
+        <p>Our mission is to connect businesses across the region, fostering collaboration, innovation, and growth. By bringing together local enterprises, we create opportunities for networking, support, and shared success, helping communities thrive and prosper together.</p>
+
+        <a href="join.html" class="cta-btn">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Current Events -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>Sep 30:</strong> Networking Breakfast</li>
+        <li><strong>Oct 12:</strong> Community Clean-up Day</li>
+        <li><strong>Nov 5:</strong> Annual Business Expo</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Local Weather</h2>
+      <div id="current-weather"></div>
+      <div id="forecast"></div>
+    </section>
+
+    <!-- Business Spotlights -->
+    <section class="spotlights">
+      <h2>Business Spotlights</h2>
+      <div id="spotlight-container"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socail">
+        
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/whatsapp.svg" alt="whatsapp" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+    </div>
+    <p>&copy; <span id="year"></span> Peter Ekanem | Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "members": [
+    {
+      "name": "Alpha Corp",
+      "logo": "images/Chamber.jpeg",
+      "address": "123 Main St, Timbuktu",
+      "phone": "555-1234",
+      "website": "https://alphacorp.com",
+      "membership": "Gold"
+    },
+    {
+      "name": "Beta LLC",
+      "logo": "images/hotel.jpeg",
+      "address": "456 Market St, Timbuktu",
+      "phone": "555-5678",
+      "website": "https://betallc.com",
+      "membership": "Silver"
+    },
+    {
+      "name": "Gamma Inc",
+      "logo": "images/Nomad.jpeg",
+      "address": "789 Center Rd, Timbuktu",
+      "phone": "555-9012",
+      "website": "https://gammainc.com",
+      "membership": "Bronze"
+    }
+  ]
+}

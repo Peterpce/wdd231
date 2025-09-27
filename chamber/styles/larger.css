@@ -1,0 +1,120 @@
+/* Apply when viewport is 38rem (~608px) or wider */
+@media only screen and (min-width: 38rem) {
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header {
+    grid-template-columns: auto auto; /* logo/name | nav */
+    align-items: center;
+  }
+
+  /* Hide hamburger on larger screens */
+  .hamburger {
+    display: none;
+  }
+
+  /* Always show nav on large screens */
+  .navigation {
+    display: block;
+    border-bottom: solid 1px #222;
+    background: #222;
+    color: #fff6e5;
+    
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .navigation li {
+    border: none;
+  }
+
+  .navigation a {
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+
+  /* About Me section with photo & text side by side */
+  .about {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .student-photo {
+    margin: 0;
+  }
+
+/* text and photo side by side */
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns */
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem;
+  }
+
+   /* left column (text) */
+  .about-text {
+    background-color: #dbd9d9; /* soft light blue */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  /* right column (photo) */
+  .about-photo {
+    background-color: #dbd9d9; /* soft peach */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    
+  }
+
+  .student-photo {
+    max-width: 250px;
+    border-radius: 10px;
+    border: 4px solid #1f2b6b; /* navy accent border */
+     margin: 0 auto;
+  }
+    .about-container h2 {
+        color: #fff6e5;
+        margin-bottom: 0.5rem;
+        background-color: #222;
+  }
+
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .course-card {
+    background: #dbd9d9;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+
+
+}
+
+
