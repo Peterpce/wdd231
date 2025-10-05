@@ -1,0 +1,21 @@
+/* ----------------------------------------
+   LARGE SCREENS (1025px+) → DESKTOP
+----------------------------------------- */
+@media screen and (min-width: 1025px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(4, 1fr); /* four columns */
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
+  }
+
+  .card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  }
+}

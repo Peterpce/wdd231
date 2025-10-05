@@ -1,0 +1,50 @@
+[
+  {
+    "title": "City Museum",
+    "address": "123 Main Street, Downtown",
+    "description": "The City Museum showcases local history, art, and cultural heritage with interactive exhibits and guided tours.",
+    "image": "images/cityM.jpeg"
+  },
+  {
+    "title": "Central Park",
+    "address": "456 Park Avenue",
+    "description": "A beautiful green space in the heart of the city, perfect for walking, picnics, and community events.",
+    "image": "images/centralP.jpeg"
+  },
+  {
+    "title": "Riverside Market",
+    "address": "789 River Road",
+    "description": "A bustling marketplace with fresh produce, handmade crafts, and local delicacies every weekend.",
+    "image": "images/RiversideM.jpeg"
+  },
+  {
+    "title": "Tech Innovation Hub",
+    "address": "101 Innovation Drive",
+    "description": "A business incubator supporting startups and entrepreneurs with workspace, mentorship, and networking.",
+    "image": "images/techin.jpeg"
+  },
+  {
+    "title": "Community Library",
+    "": "202 Library Lane",
+    "description": "Offering thousands of books, digital resources, and free educational programs for all ages.",
+    "image": "images/library.jpeg"
+  },
+  {
+    "title": "Grand Theater",
+    "address": "303 Broadway Street",
+    "description": "Historic performing arts venue featuring plays, concerts, and film screenings throughout the year.",
+    "image": "images/grandT.jpeg"
+  },
+  {
+    "title": "Sports Arena",
+    "address": "404 Stadium Way",
+    "description": "Home to local sports teams and a venue for community fitness events, tournaments, and concerts.",
+    "image": "images/sportsA.jpeg"
+  },
+  {
+    "title": "Seaside Promenade",
+    "address": "505 Ocean Drive",
+    "description": "A scenic coastal walkway lined with restaurants, cafes, and shops overlooking the sea.",
+    "image": "images/seasideP.jpeg"
+  }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover - City Chamber of Commerce</title>
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <header>
+    
+    <h1>City Chamber of Commerce</h1>
+    <nav id="nav-menu" class="navigation" aria-label="Primary navigation"></nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+    
+    
+  </header>
+
+  <main>
+    <!-- Welcome / Last Visit Message -->
+    <section class="visit">
+      <h2>Visitor Information</h2>
+      <p>Welcome to our Chamber of Commerce! Whether you’re visiting for business, tourism, or relocation, our community offers a warm and friendly environment. Explore local attractions, dine at great restaurants, and discover upcoming events.</p>
+      <p>Our visitor center is open Monday to Friday, 8:00 AM – 5:00 PM, and our staff are happy to assist you with maps, guides, and recommendations.</p>
+      <p>Stay connected with free Wi-Fi at the center, and learn more about our members, local businesses, and investment opportunities. We’re excited to help you make the most of your visit!</p>
+      <h3 id="visit-message"></h3>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="discover-cards">
+      <h2>Discover Our Members</h2>
+      <div class="cards-grid" id="cards">
+        <!-- Cards will be inserted here by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> City Chamber of Commerce</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/discover.js"></script>
+  
+</body>
+</html>
