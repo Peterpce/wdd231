@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Peter Ekanem">
+  <meta name="description" content="Contact page to reach Akwa Ibom Tourism team.">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Akwa Ibom Tourism</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="form-action.html" method="get" id="contactForm">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject" required>
+        <option value="Inquiry">Inquiry</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Partnership">Partnership</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Peter Ekanem</p>
+    <p><a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">Project Demo Video</a></p>
+    <p><a href="attributions.html">Attributions</a></p>
+  </footer>
+
+  <script type="module" src="js/form.js"></script>
+</body>
+</html>

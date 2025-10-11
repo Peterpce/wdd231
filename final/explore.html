@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Peter Ekanem">
+  <meta name="description" content="Explore tourist attractions, foods, festivals, and culture of Akwa Ibom State.">
+  <title>Explore Akwa Ibom</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Akwa Ibom Tourism</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter">
+      <button data-category="All">All</button>
+      <button data-category="Beach">Beaches</button>
+      <button data-category="Festival">Festivals</button>
+      <button data-category="Food">Foods</button>
+      <button data-category="Landmark">Landmarks</button>
+    </section>
+
+    <section id="attractions-container" class="attractions">
+      <!-- Dynamic content will be loaded here -->
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Peter Ekanem</p>
+    <p><a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">Project Demo Video</a></p>
+    <p><a href="attributions.html">Attributions</a></p>
+  </footer>
+
+  <script type="module" src="js/data.js"></script>
+  <script type="module" src="js/modal.js"></script>
+</body>
+</html>
