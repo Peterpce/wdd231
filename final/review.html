@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Form Submitted — Akwa Ibom Cultural Tourism</title>
+  <meta name="description" content="Confirmation of contact form submission." />
+  <meta name="author" content="Peter Ekanem" />
+
+
+  <link rel="icon" href="images/favicon (1).ico">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  
+  <link rel="stylesheet" href="styles/larger.css" >
+</head>
+<body>
+  
+
+  <main>
+    <section class="response">
+      <h2>Thank you!</h2>
+      <p>Your message has been submitted. Below is what we received:</p>
+
+      <div id="response-data" class="response-card" aria-live="polite"></div>
+
+      <p><a href="index.html" class="btn">Return to Home</a></p>
+    </section>
+  </main>
+
+  
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Read form values from query string and display them
+    const params = new URLSearchParams(window.location.search);
+    const out = document.getElementById('response-data');
+
+    if ([...params.keys()].length === 0) {
+      out.innerHTML = '<p>No form data was found. Please return to the <a href="contact.html">contact form</a>.</p>';
+    } else {
+      const name = params.get('name') || '';
+      const email = params.get('email') || '';
+      const subject = params.get('subject') || '';
+      const message = params.get('message') || '';
+
+      // increment submission count in localStorage
+      const count = Number(localStorage.getItem('submissionCount') || 0) + 1;
+      localStorage.setItem('submissionCount', count);
+
+      out.innerHTML = `
+        <ul>
+          <li><strong>Name:</strong> ${name}</li>
+          <li><strong>Email:</strong> ${email}</li>
+          <li><strong>Subject:</strong> ${subject}</li>
+          <li><strong>Message:</strong> ${message}</li>
+        </ul>
+        <p>Submission number (this browser): ${count}</p>
+      `;
+    }
+  </script>
+</body>
+</html>

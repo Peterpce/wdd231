@@ -1,57 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Peter Ekanem">
-  <meta name="description" content="Contact page to reach Akwa Ibom Tourism team.">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Akwa Ibom Cultural Tourism</title>
+  <meta name="description" content="Contact form to send inquiries about planning a visit to Akwa Ibom." />
+  <meta name="author" content="Peter Ekanem" />
+  
+  <link rel="icon" href="images/favicon (1).ico">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  
+  <link rel="stylesheet" href="styles/larger.css" >
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Akwa Ibom Tourism</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="explore.html">Explore</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <button class="hamburger">☰</button>
+  <header class="site-header">
+    <div class="header-container">
+          <img src= "images/cht.png" alt="Site Logo" class="logo-image" width="64" height="64">
+          <span class="site-name">Akwa Ibom Tourism</span>
+
+           <!-- accessible hamburger button: no visible text, aria-expanded toggled by JS -->
+          <button id="menu" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+      </div>
+
+    <nav id="nav-menu" class="navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li class="current"><a href="contact.html">Contact</a></li>
+           
+        </ul>
     </nav>
   </header>
 
   <main>
-    <h2>Contact Us</h2>
-    <form action="form-action.html" method="get" id="contactForm">
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" required>
+    <section class="contact-section">
+      <h2>Get in touch</h2>
+      <p>Fill the form and we will respond as soon as possible.</p>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <form id="contact-form" action="review.html" method="get" novalidate>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required>
 
-      <label for="subject">Subject:</label>
-      <select id="subject" name="subject" required>
-        <option value="Inquiry">Inquiry</option>
-        <option value="Feedback">Feedback</option>
-        <option value="Partnership">Partnership</option>
-        <option value="Other">Other</option>
-      </select>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" required>
 
-      <button type="submit">Submit</button>
-    </form>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Peter Ekanem</p>
-    <p><a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">Project Demo Video</a></p>
-    <p><a href="attributions.html">Attributions</a></p>
+  <footer class="site-footer">
+    <div class="socail">
+        
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/whatsapp.svg" alt="whatsapp" width="16" height="16"></a>
+        <a href="http://www.w3.org/2000/svg" target="black"><img src="images/twitter.svg" alt="twitter" width="16" height="16"></a>
+    </div>
+    <p>&copy; 2025 Akwa Ibom Cultural Tourism</p>
+    <p>
+      &copy; <span id="currentyear"></span> | Peter Ekanem | Nigeria
+    </p>
+    <p id="lastModified"></p>
+    <a href="video/demo.mp4" target="_blank">Project Video Demo</a> |
+    <a href="references.html">Attributions</a>
   </footer>
 
-  <script type="module" src="js/form.js"></script>
+  <script type="module" src="script/main.js"></script>
+  <script src="script/navigation.js"></script>
+  
 </body>
 </html>

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Ibeno Beach",
+    "location": "Ibeno, Akwa Ibom",
+    "description": "One of the longest beaches in West Africa, Ibeno Beach offers golden sand, ocean breeze, and fun activities like swimming and beach soccer.",
+    "bestTime": "November to April",
+    "image": "images/ibenoBeach.jpeg"
+  },
+  {
+    "name": "Ibom Plaza",
+    "location": "Uyo",
+    "description": "A vibrant city center with modern architecture, fountains, and night lights — a favorite spot for locals and visitors alike.",
+    "bestTime": "All year round",
+    "image": "images/IbomPlaza.jpeg"
+  },
+  {
+    "name": "Godswill Akpabio International Stadium",
+    "location": "Uyo",
+    "description": "A world-class sports arena known as the 'Nest of Champions', hosting international football matches and concerts.",
+    "bestTime": "During major sports events",
+    "image": "images/GodStadium.jpeg"
+  },
+  {
+    "name": "Ibom Tropicana Entertainment Centre",
+    "location": "Uyo",
+    "description": "A multi-purpose entertainment complex featuring cinemas, a shopping mall, and a five-star hotel.",
+    "bestTime": "Evenings and weekends",
+    "image": "images/ibom-tropicana.jpeg"
+  },
+  {
+    "name": "National Museum of Colonial History",
+    "location": "Uyo",
+    "description": "Showcases artifacts from Nigeria’s colonial past, traditional crafts, and historical documents.",
+    "bestTime": "All year round",
+    "image": "images/NMuseum.jpeg"
+  },
+  {
+    "name": "Bridge of No Return",
+    "location": "Ikot Abasi",
+    "description": "A powerful historical site where enslaved Africans were once transported to ships bound for foreign lands.",
+    "bestTime": "Dry season (November to March)",
+    "image": "images/bridge-return.jpeg"
+  },
+  {
+    "name": "Arochukwu Long Juju Slave Route",
+    "location": "Itu",
+    "description": "An ancient spiritual and historical site used during the pre-colonial slave trade era.",
+    "bestTime": "November to April",
+    "image": "images/Juju.jpeg"
+  },
+  {
+    "name": "Itu River Bridge",
+    "location": "Itu",
+    "description": "A scenic bridge crossing the Cross River, offering panoramic views and a refreshing breeze.",
+    "bestTime": "Sunset hours",
+    "image": "images/ItuRiver.jpeg"
+  },
+  {
+    "name": "Mary Slessor Monument",
+    "location": "Itu",
+    "description": "A monument honoring Mary Slessor, the Scottish missionary who stopped the killing of twins in the region.",
+    "bestTime": "All year round",
+    "image": "images/MarySlesso.jpeg"
+  },
+  {
+    "name": "Aka Road Market",
+    "location": "Uyo",
+    "description": "A bustling marketplace offering local delicacies, crafts, and fresh produce — a great place to experience local life.",
+    "bestTime": "Morning to afternoon",
+    "image": "images/Market.jpeg"
+  },
+  {
+    "name": "Ekpe Masquerade Festival",
+    "location": "Across Akwa Ibom",
+    "description": "A traditional celebration featuring colorful masks, drumming, and dance — deeply rooted in Ibibio culture.",
+    "bestTime": "December",
+    "image": "images/Ekpo.jpeg"
+  },
+  {
+    "name": "Blue River",
+    "location": "Ukanafun",
+    "description": "A natural river with crystal-clear water surrounded by lush vegetation — perfect for relaxation and photography.",
+    "bestTime": "Dry season",
+    "image": "images/BlueRiver.jpeg"
+  },
+  {
+    "name": "Unity Park",
+    "location": "Uyo",
+    "description": "A peaceful recreational park ideal for picnics, family outings, and cultural events.",
+    "bestTime": "Morning and evening hours",
+    "image": "images/Unity-Park.jpeg"
+  },
+  {
+    "name": "Ibom Air Experience",
+    "location": "Victor Attah International Airport, Uyo",
+    "description": "The pride of Akwa Ibom — experience the hospitality and service of Nigeria’s top-rated state-owned airline.",
+    "bestTime": "All year round",
+    "image": "images/ibom-air.jpg"
+  },
+  {
+    "name": "Mbo Mangrove Forest",
+    "location": "Mbo Local Government Area",
+    "description": "A rich ecosystem of mangroves, birds, and aquatic life, perfect for nature tours and ecological studies.",
+    "bestTime": "November to February",
+    "image": "images/MangroveForest.jpeg"
+  }
+]

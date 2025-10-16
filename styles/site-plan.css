@@ -6,9 +6,14 @@ body {
   line-height: 1.6;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Merriweather', serif;
   color: #ffff;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #222;
 }
 
 header, footer {

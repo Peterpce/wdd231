@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Akwa Ibom Cultural Tourism</title>
-  <meta name="description" content="Explore the culture and tourist attractions of Akwa Ibom State, Nigeria." />
+  <title>Attractions — Akwa Ibom Cultural Tourism</title>
+  <meta name="description" content="Explore top tourist attractions in Akwa Ibom State — from Ibeno Beach to Ibom Plaza and other cultural landmarks." />
   <meta name="author" content="Peter Ekanem" />
 
+  
  
   <link rel="icon" href="images/favicon (1).ico">
 
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/medium.css">
-  
   <link rel="stylesheet" href="styles/larger.css" >
-  <link rel="stylesheet" href="styles/gto.css" >
+  <link rel="stylesheet" href="styles/go.css" >
+
+  <script type="module" src="script/attractions.js" defer></script>
   
+  <script src="script/navigation.js"></script>
 </head>
+
 <body>
-  <!-- Header / Navigation -->
   <header>
     <div class="header-container">
           <img src= "images/cht.png" alt="Site Logo" class="logo-image" width="64" height="64">
@@ -30,8 +34,8 @@
 
     <nav id="nav-menu" class="navigation" aria-label="Primary navigation">
         <ul>
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="attractions.html">Attractions</a></li>
           <li><a href="culture.html">Culture</a></li>
           <li><a href="contact.html">Contact</a></li>
            
@@ -39,30 +43,18 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
   <main>
-    <section class="hero">
-      <h1>Welcome to Akwa Ibom Cultural Tourism</h1>
-      <p>Discover the beauty, culture, and traditions of Akwa Ibom State, Nigeria.</p>
-      <img src="images/ibenoBeach.jpeg" alt="Ibeno Beach" loading="lazy">
+    <section class="hero small-hero">
+      <h1>Top Attractions in Akwa Ibom</h1>
+      <p>Explore the most exciting and beautiful destinations across Akwa Ibom State.</p>
     </section>
 
-    <!-- Featured Attractions (Dynamic Content) -->
-    <section class="featured-attractions">
-      <h2>Featured Attractions</h2>
-      <div id="attraction-preview" class="cards-container">
-        <!-- JS will populate cards here -->
-      </div>
+    <section id="attractions-list" class="grid-layout">
+      <!-- Dynamic JavaScript content will appear here -->
     </section>
-
-
-
-
   </main>
 
-  <!-- Footer -->
   <footer>
-
     <div class="socail">
         
         <a href="http://www.w3.org/2000/svg" target="black"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
@@ -78,9 +70,5 @@
     <a href="video/demo.mp4" target="_blank">Project Video Demo</a> |
     <a href="references.html">Attributions</a>
   </footer>
-
-  <!-- Scripts -->
-  <script type="module" src="script/main.js"></script>
-  <script src="script/navigation.js"></script>
 </body>
 </html>

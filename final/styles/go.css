@@ -1,0 +1,67 @@
+/* ====== Base (Small View) ====== */
+#attractions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.attraction-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.attraction-card:hover {
+  transform: scale(1.02);
+}
+
+.attraction-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.text-content {
+  padding: 1rem;
+}
+
+/* ====== Medium View (481px–768px) ====== */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .attraction-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .attraction-card img {
+    width: 40%;
+    height: auto;
+  }
+
+  .text-content {
+    width: 60%;
+    padding: 1rem 1.5rem;
+  }
+}
+
+/* ====== Large View (769px and above) ====== */
+@media only screen and (min-width: 769px) {
+  #attractions-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .attraction-card {
+    flex-direction: column;
+  }
+
+  .attraction-card img {
+    width: 100%;
+    height: 200px;
+  }
+}
